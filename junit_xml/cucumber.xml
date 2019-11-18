@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.485082">
+<testcase classname="Login Feature" name="This is for login scenario" time="18.485082">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at PageActions.LoginPage.enterUsername(LoginPage.java:36)&#13;&#10;&#9;at StepDef.StepDef.user_enter_username(StepDef.java:32)&#13;&#10;&#9;at ✽.Then user enter username(AllFeatures.feature:5)&#13;&#10;"><![CDATA[Given user is on login page.................................................passed
+Then user enter username....................................................failed
+Then user enter password....................................................skipped
+And click on Login..........................................................skipped
+Then click on manage users on left..........................................skipped
+Then click SRM tab..........................................................skipped
+Then click add new SRM button...............................................skipped
+Then fill in all details....................................................skipped
+Then click save.............................................................skipped
+Then navigate to manageUser and SRM tab.....................................skipped
+Then update user from Action menu...........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at PageActions.LoginPage.enterUsername(LoginPage.java:36)
+	at StepDef.StepDef.user_enter_username(StepDef.java:32)
+	at ✽.Then user enter username(AllFeatures.feature:5)
+]]></failure>
+</testcase>
+</testsuite>

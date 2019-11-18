@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 32398284,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookables.before(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "This is for login scenario",
+        "description": "",
+        "id": "login-feature;this-is-for-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 155855,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hookables.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18450971694,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1555881,
+              "error_message": "java.lang.NullPointerException\r\n\tat PageActions.LoginPage.enterUsername(LoginPage.java:36)\r\n\tat StepDef.StepDef.user_enter_username(StepDef.java:32)\r\n\tat ✽.Then user enter username(AllFeatures.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user enter username",
+            "match": {
+              "location": "StepDef.user_enter_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enter password",
+            "match": {
+              "location": "StepDef.user_enter_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on Login",
+            "match": {
+              "location": "StepDef.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click on manage users on left",
+            "match": {
+              "location": "StepDef.click_on_manage_users_on_left()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click SRM tab",
+            "match": {
+              "location": "StepDef.click_SRM_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click add new SRM button",
+            "match": {
+              "location": "StepDef.click_add_new_SRM_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "fill in all details",
+            "match": {
+              "location": "StepDef.fill_in_all_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "click save",
+            "match": {
+              "location": "StepDef.click_save()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "navigate to manageUser and SRM tab",
+            "match": {
+              "location": "StepDef.navigate_to_manageUser_and_SRM_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "update user from Action menu",
+            "match": {
+              "location": "StepDef.update_user_from_Action_menu()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "AllFeatures.feature"
+  }
+]
